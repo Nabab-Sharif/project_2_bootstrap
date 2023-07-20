@@ -1,0 +1,388 @@
+/* common css style start here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+
+.btn {
+  padding: 15px 42px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 10px;
+  background: #6A4DF4;
+
+}
+
+.btn:hover {
+  border-radius: 10px;
+  background: #6A4DF4;
+  color: #FFF;
+}
+
+
+.title h4 {
+  color: #151515;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.title p {
+  color: #737373;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px auto 0px;
+}
+
+/* common css style end here */
+
+/* navbar part start here */
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 57px;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .navbar-nav {
+  column-gap: 68px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #4756DF;
+  transform: scale(1.2);
+}
+
+
+.navbar .navbar-nav .nav-item .active {
+  color: #4756DF;
+  transform: scale(1.2);
+}
+
+/* navbar part end here */
+
+
+/* banner part start here */
+#banner_part {
+  background: url(../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 315px 0 176px;
+}
+
+
+#banner_part .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#banner_part .text h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 950px;
+}
+
+#banner_part .text p {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 621px;
+  margin: 51px 0 40px;
+}
+
+
+/* banner part end here */
+
+
+/* our success part style start here */
+#our_success_part {
+  padding: 171px 0 149px;
+}
+
+#our_success_part .container {
+  border-radius: 20px;
+  background: #E0FFF9;
+  padding: 85px 51px 85px 50px;
+}
+
+
+#our_success_part .success_leftSideText p {
+  color: #6A4DF4;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+#our_success_part .success_leftSideText h4 {
+  color: #151515;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 387px;
+}
+
+
+#our_success_part .success_rightPart {
+  display: flex;
+  justify-content: space-between;
+}
+
+#our_success_part .success_rightSideText h3 {
+  color: #151515;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#our_success_part .success_rightSideText p {
+  color: #737373;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* our success part style end here */
+
+
+/* our service part style start here */
+#our_service_part {
+  margin-bottom: 149px;
+}
+
+#our_service_part .title p {
+  width: 609px;
+  margin-bottom: 50px;
+}
+
+
+#our_service_part .container .main {
+  text-align: center;
+  padding: 80px 49px 45px;
+
+}
+
+
+
+#our_service_part .container .main:hover {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+#our_service_part .main h3 {
+  color: #151515;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 40px 0 20px;
+}
+
+
+#our_service_part .main p {
+  color: #737373;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+
+/* our service part style end here */
+
+
+/* our recent work part style start here */
+#recent_work_part {
+  background: #F3F3F3;
+  padding: 150px 0;
+}
+
+
+#recent_work_part .title p {
+  margin-bottom: 106px;
+  width: 620px;
+}
+
+
+#recent_work_part .recent_work_info .image img {
+  width: 100%;
+
+}
+
+#recent_work_part .recent_work_info .text {
+  padding: 30px 42px;
+  background: white;
+
+}
+
+#recent_work_part .recent_work_info .text h4 {
+  color: #151515;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px 0 10px;
+}
+
+#recent_work_part .recent_work_info .text p {
+  color: #737373;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+
+}
+
+#recent_work_part .container .row {
+  row-gap: 24px;
+}
+
+
+/* our recent work part style end here */
+
+
+/* agency part style start here */
+#agency_part {
+  padding: 150px 0 160px;
+}
+
+#agency_part .title h4 {
+  width: 518px;
+  margin: 0 auto;
+}
+
+#agency_part .title p {
+  width: 802px;
+
+}
+
+#agency_part .col-lg-8 {
+  margin-top: 130px;
+}
+
+
+#agency_part .agency_text h4 {
+  color: #151515;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0 10px;
+}
+
+#agency_part .agency_text p {
+  color: #737373;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 344px;
+}
+
+#agency_part .row .col-lg-8 .row {
+  row-gap: 95px;
+}
+
+
+#agency_part .image img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+#agency_part .image {
+  margin-top: 137px;
+}
+
+
+/* agency part style end here */
